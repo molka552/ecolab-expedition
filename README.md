@@ -192,19 +192,6 @@ python3 Tools/verify_maps.py
 
 Les itinéraires calculés figurent dans [VALIDATION.md](VALIDATION.md).
 
-### Checklist avant une démonstration
-
-- [ ] Parcourir les trois jardins.
-- [ ] Vérifier les rochers, les ronces et la collecte unique des graines.
-- [ ] Tester le verrouillage de la borne avant trois graines.
-- [ ] Vérifier victoire, GameOver, pause et nouvelle tentative.
-- [ ] Tester les sons et la sauvegarde des records.
-- [ ] Contrôler l’affichage en **1440 × 900**, **1280 × 720** et **1024 × 768**.
-- [ ] Lancer un build PC hors de Unity.
-- [ ] Tester séparément les exports Web ou Mobile s’ils sont présentés.
-
-> Les vérifications automatiques portent sur les règles et les cartes. Elles ne remplacent pas les tests de compilation, de rendu et de gameplay dans Unity.
-
 ## 🎓 Objectifs du projet
 
 | Consigne | Réalisation |
@@ -221,18 +208,6 @@ Les itinéraires calculés figurent dans [VALIDATION.md](VALIDATION.md).
 | Web / Mobile — recommandations | Export et tests à réaliser sur les plateformes cibles |
 
 🗣️ Le guide de démonstration est disponible dans [PRESENTATION.md](PRESENTATION.md).
-
-## 🔄 Contribuer au dépôt
-
-Après une modification locale :
-
-```bash
-git add .
-git commit -m "Describe your changes"
-git push
-```
-
-Le `.gitignore` exclut les dossiers temporaires de Unity. Conserver également les builds générés hors des fichiers suivis par Git.
 
 ## 📄 Licence
 
